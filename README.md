@@ -4,10 +4,10 @@ This project is a simple web application that displays a circle which can be col
 
 ## Project Structure
 
-- `src/public/index.html`: HTML structure for the web page displaying the circle.
-- `src/public/styles.css`: Styles for the circle in different colors.
-- `src/app.js`: Entry point of the application, sets up the Express server.
-- `src/routes/status.js`: Defines routes for serving the web page and changing the circle's color.
+- `public/index.html`: HTML structure for the web page displaying the circle.
+- `public/styles.css`: Styles for the circle in different colors.
+- `app.js`: Entry point of the application, sets up the Express server.
+- `routes/status.js`: Defines routes for serving the web page and changing the circle's color.
 - `Dockerfile`: Instructions to build the Docker image using Alpine Linux and Node.js.
 - `docker-compose.yml`: Defines the services for the application.
 - `package.json`: Configuration file for npm, listing dependencies and scripts.
@@ -19,7 +19,6 @@ To build and run the application using Docker, follow these steps:
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd status-light-app
    ```
 
 2. Build the Docker image:
