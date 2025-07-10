@@ -1,0 +1,9 @@
+{
+  "name": "room-check",
+  "version": "1.0.0",
+  "description": "Room status checker",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
